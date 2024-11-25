@@ -1,0 +1,103 @@
+/* General */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f9;
+  color: #343a40;
+}
+
+h1, h2, h3 {
+  color: #212529;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Botón de Reset */
+button.reset-button {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button.reset-button:hover {
+  background-color: #218838;
+}
+
+/* Tablas */
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #dee2e6;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+td {
+  font-size: 14px;
+}
+
+tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+tr:hover {
+  background-color: #e9ecef;
+}
+
+/* Encabezados de sección */
+h3 {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #495057;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 2px solid #dee2e6;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Selectores */
+select.result-selector {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  background-color: white;
+  color: #495057;
+  outline: none;
+  cursor: pointer;
+}
+
+select.result-selector:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+}
+
+/* Colores personalizados para equipos */
+td[style*="color:"] {
+  font-weight: bold;
+}
